@@ -36,6 +36,14 @@ The dashboard helps analyze:
 
 ## 📂 Files Included
 
+# 💰 Financial & Expense Tracker Dashboard
+
+An interactive Finance Dashboard created using **Python, Pandas, and Power BI**.
+
+---
+
+## 📂 Files Included
+
 ```bash
 Financial-Expense-Tracker/
 │
@@ -43,42 +51,44 @@ Financial-Expense-Tracker/
 ├── Financial_Expense_Tracker.ipynb
 ├── Financial_Expense_Tracker_Dashboard.xlsx
 ├── dashboard_preview.png
-├── README.md
-⚙️ Data Cleaning Process
+└── README.md
+```
+
+## ⚙️ Data Cleaning Process
 
 Data cleaning was performed in:
 
-Financial_Expense_Tracker.ipynb
-Steps Performed:
-Cleaned column names
-Converted date columns
-Removed null values
-Removed duplicates
-Converted numeric columns
-Created finance KPIs
-📊 KPIs Created
-Total Income
-Total Expense
-Savings
-Budget
-Budget Variance
-Budget Utilization %
-📈 Dashboard Features
-KPI Cards
-Monthly Income vs Expense
-Savings Trend
-Region-wise Income
-Expense Distribution by Category
-Budget vs Actual Expense
-Interactive Slicers
-📷 Dashboard Preview
+`Financial_Expense_Tracker.ipynb`
 
-▶️ Workflow
-Used Superstoredata.csv as raw dataset
-Cleaned data using Python notebook
-Exported cleaned dataset to Excel
-Imported Excel file into Power BI
-Created interactive finance dashboard
-👩‍💻 Author
+### Steps Performed
+- Cleaned column names
+- Converted date columns
+- Removed null values
+- Removed duplicates
+- Converted numeric columns
+- Created finance KPIs
 
-Harshada Panhale
+---
+
+## 📊 Dashboard Features
+
+- KPI Cards
+- Monthly Income vs Expense
+- Savings Trend
+- Region-wise Income
+- Expense Distribution
+- Budget vs Actual Expense
+- Interactive Filters
+
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard Preview](dashboard_preview.png)
+
+---
+
+
+## 👩‍💻 Author
+
+**Harshada Panhale**
