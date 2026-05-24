@@ -122,6 +122,3 @@ Financial_Expense_Tracker.ipynb
 
 ---
 
-# ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub.
