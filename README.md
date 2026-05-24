@@ -1,29 +1,30 @@
 # 💰 Financial & Expense Tracker Dashboard
 
-An interactive Finance Dashboard created using **Python, Pandas, and Power BI** to analyze income, expenses, savings, and budget performance using the Superstore dataset.
+An interactive Finance Dashboard built using **Python, Pandas, and Power BI** to analyze income, expenses, savings, and budget performance using the Superstore dataset.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 This project includes:
 - Data Cleaning using Python
 - Financial KPI Creation
 - Data Export to Excel
-- Interactive Dashboard in Power BI
+- Interactive Dashboard Creation in Power BI
 
 The dashboard helps analyze:
 - Total Income
 - Total Expense
 - Savings
+- Budget Variance
 - Budget Utilization
 - Monthly Financial Trends
 - Region-wise Income
-- Expense Distribution
+- Expense Distribution by Category
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -34,61 +35,93 @@ The dashboard helps analyze:
 
 ---
 
-## 📂 Files Included
-
-# 💰 Financial & Expense Tracker Dashboard
-
-An interactive Finance Dashboard created using **Python, Pandas, and Power BI**.
-
----
-
-## 📂 Files Included
+# 📂 Project Structure
 
 ```bash
 Financial-Expense-Tracker/
 │
-├── Superstoredata.csv
+├── Dashboard.png
 ├── Financial_Expense_Tracker.ipynb
 ├── Financial_Expense_Tracker_Dashboard.xlsx
-├── dashboard_preview.png
-└── README.md
+├── README.md
+└── Superstoredata.csv
 ```
-
-## ⚙️ Data Cleaning Process
-
-Data cleaning was performed in:
-
-`Financial_Expense_Tracker.ipynb`
-
-### Steps Performed
-- Cleaned column names
-- Converted date columns
-- Removed null values
-- Removed duplicates
-- Converted numeric columns
-- Created finance KPIs
 
 ---
 
-## 📊 Dashboard Features
+# ⚙️ Data Cleaning Process
+
+Data cleaning and preprocessing were performed in:
+
+```bash
+Financial_Expense_Tracker.ipynb
+```
+
+### Steps Performed
+- Cleaned column names
+- Converted date columns into datetime format
+- Removed null values
+- Removed duplicate records
+- Converted sales and profit columns into numeric format
+- Created financial KPIs
+
+---
+
+# 📊 KPIs Created
+
+- Total Income
+- Total Expense
+- Savings
+- Budget
+- Budget Variance
+- Budget Utilization %
+
+---
+
+# 📈 Dashboard Features
 
 - KPI Cards
 - Monthly Income vs Expense
-- Savings Trend
+- Monthly Savings Trend
 - Region-wise Income
-- Expense Distribution
+- Expense Distribution by Category
 - Budget vs Actual Expense
 - Interactive Filters
 
 ---
 
-## 📷 Dashboard Preview
+# 📷 Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview]("Dashboard.png")
 
 ---
 
+# ▶️ Project Workflow
 
-## 👩‍💻 Author
+1. Used `Superstoredata.csv` as raw dataset  
+2. Cleaned data using Python notebook  
+3. Generated financial KPIs  
+4. Exported cleaned data into Excel  
+5. Imported Excel file into Power BI  
+6. Created interactive finance dashboard  
+
+---
+
+# 📌 Key Insights
+
+- West region generated the highest income
+- Budget utilization remained around 90%
+- Savings increased in later months
+- Technology and Furniture categories contributed major expenses
+
+---
+
+# 👩‍💻 Author
 
 **Harshada Panhale**
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
